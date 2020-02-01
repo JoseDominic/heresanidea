@@ -23,6 +23,8 @@ app.use(express.static(__dirname+'/public'));
 //Express Bodyparser
 app.use(express.urlencoded({extended:true}));
 
+//Routes
+app.use('/',require('./routes/index'));
 
 const PORT = process.env.PORT || 5000;
 
