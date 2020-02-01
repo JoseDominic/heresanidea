@@ -1,0 +1,30 @@
+{
+  "name": "heresanidea",
+  "version": "1.0.0",
+  "description": "Idea crowdsourcing website",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseDominic/heresanidea.git"
+  },
+  "keywords": [
+    "idea",
+    "crowdsourcing"
+  ],
+  "author": "jose dominic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseDominic/heresanidea/issues"
+  },
+  "homepage": "https://github.com/JoseDominic/heresanidea#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.8.11",
+    "passport": "^0.4.1"
+  }
+}
